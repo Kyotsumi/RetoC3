@@ -44,8 +44,8 @@ public class OrtopedicService {
                 if(ortopedic.getBrand()!=null){
                     e.get().setBrand(ortopedic.getBrand()); ;
                 }
-                if(ortopedic.getRooms() !=null){
-                    e.get().setRooms(ortopedic.getRooms());
+                if(ortopedic.getYear() !=null){
+                    e.get().setYear(ortopedic.getYear());
                 }
                 if(ortopedic.getDescription()!=null){
                     e.get().setDescription(ortopedic.getDescription());

@@ -15,7 +15,7 @@ public class Ortopedic implements Serializable {
     private Integer id;
     private String  name;
     private String  brand;
-    private Integer oomsr;
+    private Integer year;
     private String  description;
 
     @ManyToOne
@@ -55,12 +55,12 @@ public class Ortopedic implements Serializable {
         this.brand = brand;
     }
 
-    public Integer getRooms() {
-        return rooms;
+    public Integer getYear() {
+        return year;
     }
 
-    public void setRooms(Integer rooms) {
-        this.rooms = rooms;
+    public void setYear(Integer year) {
+        this.year = year;
     }
 
     public String getDescription() {

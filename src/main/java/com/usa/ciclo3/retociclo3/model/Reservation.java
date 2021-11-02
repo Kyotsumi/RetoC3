@@ -33,9 +33,7 @@ public class Reservation implements Serializable {
         return idReservation;
     }
 
-    public void setIdReservation(Integer idReservation) {
-        this.idReservation = idReservation;
-    }
+    public void setIdReservation(Integer idReservation) { this.idReservation = idReservation; }
 
     public Date getStartDate() {
         return startDate;
@@ -61,13 +59,9 @@ public class Reservation implements Serializable {
         this.status = status;
     }
 
-    public Ortopedic getOrtopedic() {
-        return ortopedic;
-    }
+    public Ortopedic getOrtopedic() { return ortopedic; }
 
-    public void setOrtopedic(Ortopedic ortopedic) {
-        this.ortopedic = ortopedic;
-    }
+    public void setOrtopedic(Ortopedic ortopedic) { this.ortopedic = ortopedic; }
 
     public Client getClient() {
         return client;
